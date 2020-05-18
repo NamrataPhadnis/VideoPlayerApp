@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item android:id="@+id/i1"
+            android:title="VideoApp Web"
+            app:showAsAction="never"
+            />
+
+        <item android:id="@+id/i2"
+            android:title="Starred video"
+            app:showAsAction="never" >
+
+            <menu>
+                <item android:id="@+id/i3"
+                    android:title="display video"
+                     />
+
+                <item android:id="@+id/i4"
+                    android:title="shuffle"
+                    />
+
+                <item android:id="@+id/i5"
+                    android:title="add to playlist"
+                    />
+                <item android:id="@+id/exit"
+                    android:title="add to playlist"
+                    />
+
+                <item android:id="@+id/i6"
+                    android:title="Dismiss"
+                    />
+                    </menu>
+
+
+                </item>
+
+
+    </menu>
+
+
